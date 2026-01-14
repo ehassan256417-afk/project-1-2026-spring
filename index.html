@@ -3,11 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hello internet</title>
+    <title>Hello Internet</title>
+
+<style>
+ body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f3f1f1;
+
+ }
+
+ h1 {
+    color: #030303;
+ }
+
+h2 {
+    color: rgb(255, 99, 71);
+    background-color: rgb(200, 200, 200, 0.3);
+}
+
+ .login-container{
+    border: solid 1px blue;
+
+ }
+
+#author{
+    color: #8e4fd6;
+}
+
+
+    </style>
 </head>
 <body>
-    </h1>👍Hello, Internet!</h1>
+    <h1>👍Hello Internet!</h1>
     <p>Welcome to my simple HTML page.</p>
+<h2>features</h2>
+
+<ul>
+    <li>Login</li>
+    <li>Search</li>
+    <li>Content</li>
+    <li>Footer</li>
+</ul>
+
+<!--This is my vanilla html form-->
+ <div class="login-container"> 
+        <h2> Plain Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn-login">Login</button>
+            <div id="message" class="message"></div>
+        </form>
+    </div>
+
+<script>
+
+console.log("Password is: lasnga")
+
+
+</script>
 
 
 </body>
